@@ -31,5 +31,4 @@ HttpServlet模板
 
 ## 注意：访问登录页面时访问login.html而不是login；
 ## 每一个访问页面都对应一个servlet；
-### 应用<web.xml>没有定义.html文件对应的servlet，会使用tomcat全局定义的一个servlet对login.html进行显示；在覅凝结提交以后，会跳转到login界面；
-### login根据<web.xml>定义连接到LoginServlet，对数据进行验证并对应输出。
+### 应用<web.xml>没有定义.html文件对应的servlet，会使用tomcat全局定义的一个servlet对login.html进行显示；在点击提交以后，会跳转到login界面；login根据<web.xml>定义连接到LoginServlet，对数据进行验证并对应输出。
